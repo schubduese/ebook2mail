@@ -6,7 +6,7 @@ function doit {
   rename 's/\s/_/g' *
 
   #alle epub-Dateien konvertieren
-  for i in *.epub; do ebook-convert '$i' '$i'.mobi; done
+  for i in *.epub; do ebook-convert $i $i.mobi; done
 
   #Alle Dateien als einzelne Mail versenden
   for i in *.mobi; do echo "" | mail -s "" -A $i $2;done
