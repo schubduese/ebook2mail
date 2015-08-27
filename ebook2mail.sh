@@ -13,7 +13,7 @@ function doit {
 }
 
 function showHelp {
-	echo  -e "Das Skript benötigt 2 Eingabeparameter: Das Verzeichnis, indem die eBooks liegen sowie die eMail-Adresse\n Beispiel: ebook2mail . test@kindle.com\nAlle *.epub und *.mobi Dateien des aktuellen Verzeichnisses werden an die Adresse test@kindle.com gesendet"
+	echo  -e "Das Skript benötigt 2 Eingabeparameter: Das Verzeichnis, indem die eBooks liegen sowie die eMail-Adresse\n Beispiel: ebook2mail . test@kindle.com\nAlle *.epub und *.mobi Dateien des aktuellen Verzeichnisses werden an die Adresse test@kindle.com gesendet (*.epub Dateien werden dabei umgewandelt, liegen beide Formate vor werden beide gesendet!)"
 }
 
 
